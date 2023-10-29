@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    width: 40%;
+    margin: auto;
+    border: 2px solid rgb(0, 157, 255);
+    border-radius: 85px 10px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 40px;
+  
+}
+h1{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #b689ff;
+}
+#LoginForm input{
+ margin-top: 30px;
+border: 2px solid #b727f0;
+border-radius: 25px;
+height: 30px;
+text-align: center;
+width: 60%;
+
+}
+#LoginForm input::placeholder{
+    text-align: center;
+   
+
+}
+#LoginForm input:hover{
+    border: 2px solid #b727f0;
+    
+}
+#LoginForm button{
+    margin-top: 30px;
+    border: 2px solid #6d1cef;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+#LoginForm button:hover{
+    background-color: #6d1cef;
+    transition: 0.9s;
+    cursor: pointer;
+    
+}
